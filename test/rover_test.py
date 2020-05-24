@@ -25,6 +25,7 @@ class Rover(object):
                 return
 
             self.facing = "N"
+            return
 
         if instruction == "L":
             if self.facing == "N":
@@ -40,6 +41,7 @@ class Rover(object):
                 return
 
             self.facing = "N"
+            return
 
         if instruction == "F":
             if self.facing == "N":
